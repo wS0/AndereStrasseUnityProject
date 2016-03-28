@@ -38,11 +38,7 @@ namespace UnityStandardAssets.Effects
                     lastSoundTime = Time.time;
                 }
 
-<<<<<<< HEAD
-                var col = m_CollisionEvents[i].collider;
-=======
 				var col = m_CollisionEvents[i].colliderComponent;
->>>>>>> bdeb454500ea18ae3fa3867a193afdec83c0c370
                 var attachedRigidbody = col.GetComponent<Rigidbody>();
                 if (attachedRigidbody != null)
                 {
